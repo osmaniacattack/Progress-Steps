@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+/* CSS Variables */
 :root {
   --line-border-fill: #3498db;
   --line-border-empty: #e0e0e0;
@@ -24,6 +25,7 @@ body {
   text-align: center;
 }
 
+/* Flex all circle divs in a row */
 .progress-container {
   display: flex;
   justify-content: space-between;
@@ -45,6 +47,7 @@ body {
   z-index: -1;
 }
 
+/* Progress bar init to 0, controlled by javascript */
 .progress {
   background-color: var(--line-border-fill);
   position: absolute;
@@ -57,6 +60,7 @@ body {
   transition: 0.4s ease;
 }
 
+/* Style for circle divs */
 .circle {
   background-color: #fff;
   color: #999;
